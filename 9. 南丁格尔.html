@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>全球能源消费结构可视化</title>
+    <link rel="stylesheet" href="css/text.css">
+
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="4a75fcd776394f959a1af1d3c7bf3967" class="chart-container" style="width:100vw; height:92vh; "></div>
+    <div class="buttonposition">
+        <button class = "buttonstyle"  onclick="loading.in('./8. 百分比堆栈.html')">Last Page</button>
+    </div>
+    <div class="loading">
+        <svg viewbox='0 0 50 50'>
+            <circle r='25' cx='25' cy='25'></circle>
+        </svg>
+        <p>LOADING</p>
+    </div>
+    <script src="js/loading.js"></script>
+
+    <script>
+        var chart_4a75fcd776394f959a1af1d3c7bf3967 = echarts.init(
+            document.getElementById('4a75fcd776394f959a1af1d3c7bf3967'), 'dark', {renderer: 'canvas'});
+        var option_4a75fcd776394f959a1af1d3c7bf3967 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#404A3C",
+        "#5B5B28",
+        "#F6EDD9",
+        "#00679D",
+        "#72B2DF",
+        "#72B2DF",
+        "#DC9F53",
+        "#A3AF9E"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "colorBy": "data",
+            "legendHoverLink": true,
+            "selectedMode": false,
+            "selectedOffset": 10,
+            "clockwise": true,
+            "startAngle": 90,
+            "minAngle": 0,
+            "minShowLabelAngle": 0,
+            "avoidLabelOverlap": true,
+            "stillShowZeroSum": true,
+            "percentPrecision": 2,
+            "showEmptyCircle": true,
+            "emptyCircleStyle": {
+                "color": "lightgray",
+                "borderColor": "#000",
+                "borderWidth": 0,
+                "borderType": "solid",
+                "borderDashOffset": 0,
+                "borderCap": "butt",
+                "borderJoin": "bevel",
+                "borderMiterLimit": 10,
+                "opacity": 1
+            },
+            "data": [
+                {
+                    "name": "Coal",
+                    "value": 17224.002
+                },
+                {
+                    "name": "Oil",
+                    "value": 5485.373
+                },
+                {
+                    "name": "Gas",
+                    "value": 2634.8838
+                },
+                {
+                    "name": "Nuclear",
+                    "value": 733.05255
+                },
+                {
+                    "name": "Hydro",
+                    "value": 2382.6736
+                },
+                {
+                    "name": "Wind",
+                    "value": 1394.5349
+                },
+                {
+                    "name": "Solar",
+                    "value": 782.0486
+                },
+                {
+                    "name": "Other renewables",
+                    "value": 395.36432
+                }
+            ],
+            "radius": [
+                "30%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "60%"
+            ],
+            "roseType": "radius",
+            "label": {
+                "show": true,
+                "margin": 8,
+                "formatter": "{b}: {c}"
+            },
+            "labelLine": {
+                "show": true,
+                "showAbove": false,
+                "length": 15,
+                "length2": 15,
+                "smooth": false,
+                "minTurnAngle": 90,
+                "maxSurfaceAngle": 90
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Coal",
+                "Oil",
+                "Gas",
+                "Nuclear",
+                "Hydro",
+                "Wind",
+                "Solar",
+                "Other renewables"
+            ],
+            "selected": {},
+            "show": true,
+            "top": "7%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "2022 China Energy Distribution per Capita (kWh)",
+            "target": "blank",
+            "subtarget": "blank",
+            "left": "center",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_4a75fcd776394f959a1af1d3c7bf3967.setOption(option_4a75fcd776394f959a1af1d3c7bf3967);
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>全球能源消费结构可视化</title>
+    <link rel="stylesheet" href="css/cover.css">
+    <link rel="stylesheet" href="css/text.css">
+</head>
+    <section class="word" style="z-index: -1;">
+        <div class="Title">
+            <img src="标题.png" style="width: 550px; height: 60vh;">
+        </div>
+        <div class="Wordcloud">
+            <img src="wordcloud.png" style="width: 500px; height: 60vh;">
+        </div>
+    </section>
+    <div class="buttonposition2">
+        <button class = "buttonstyle2"  onclick="loading.in('./1. 总量流动图.html')">Explore</button>
+        <button class = "buttonstyle2" onclick="window.location.href='https://github.com/Onewayticket2004/Visualization';">
+            Github
+        </button>
+    </div>
+    <div class="loading" style="z-index: 100000;">
+        <svg viewbox='0 0 50 50'>
+            <circle r='25' cx='25' cy='25'></circle>
+        </svg>
+        <p>LOADING</p>
+    </div>
+    <script src="js/loading.js"></script>
+
+<body >
+</body>
+</html>
