@@ -1,6 +1,5 @@
 # Visualization
-This is a presentation of my course "Data Visualization".
-You can make it through Pyecharts and Echarts
+This is a presentation of my 'Data Visualization' course. You can create [visualizations] using Pyecharts and Echarts.
 ## Programming Language
 Python、Html、JavaScript、Css
 # Data
