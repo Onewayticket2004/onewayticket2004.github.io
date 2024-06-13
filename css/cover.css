@@ -1,0 +1,46 @@
+body{
+    background-color: #100c2a;
+}
+
+.word{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+    /* border: 5px solid #ffffff; */
+}
+
+.Title{
+    width: 500px;
+    height: 65vh;
+    /* border: 10px solid #ffffff; */
+    display: flex;
+    justify-content: center;
+}
+
+.Wordcloud{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 65vh;
+    /* border: 10px solid #ffffff; */
+}
+
+.buttonposition2{
+    display: flex;
+    justify-content: center ;
+    margin-top: 30px;
+}
+
+.buttonstyle2{
+    width: 200px;
+    margin-left: 20px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+    background-color: #1d164e;
+    color: #ffffff;
+    font-size: 20px;
+}
